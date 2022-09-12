@@ -14,6 +14,7 @@
 		EAA6F7DE28CF1AA600671CCD /* GildedRoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6F7DD28CF1AA600671CCD /* GildedRoseTests.swift */; };
 		EAA6F7E828CF1AA600671CCD /* GildedRoseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6F7E728CF1AA600671CCD /* GildedRoseUITests.swift */; };
 		EAA6F7EA28CF1AA600671CCD /* GildedRoseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6F7E928CF1AA600671CCD /* GildedRoseUITestsLaunchTests.swift */; };
+		EAA6F7F728CF1AD500671CCD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6F7F628CF1AD500671CCD /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		EAA6F7E328CF1AA600671CCD /* GildedRoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GildedRoseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA6F7E728CF1AA600671CCD /* GildedRoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseUITests.swift; sourceTree = "<group>"; };
 		EAA6F7E928CF1AA600671CCD /* GildedRoseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAA6F7F628CF1AD500671CCD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EAA6F7F828CF1BFA00671CCD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				EAA6F7CE28CF1AA500671CCD /* ContentView.swift */,
 				EAA6F7D028CF1AA600671CCD /* Assets.xcassets */,
 				EAA6F7D228CF1AA600671CCD /* Preview Content */,
+				EAA6F7F628CF1AD500671CCD /* Item.swift */,
+				EAA6F7F828CF1BFA00671CCD /* README.md */,
 			);
 			path = GildedRose;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA6F7CF28CF1AA500671CCD /* ContentView.swift in Sources */,
+				EAA6F7F728CF1AD500671CCD /* Item.swift in Sources */,
 				EAA6F7CD28CF1AA500671CCD /* GildedRoseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
